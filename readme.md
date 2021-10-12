@@ -1,12 +1,14 @@
+## Custom use of Phaser.js  :space_invader: 
+ 
 This is based on the tutorial from 
 https://flaviocopes.com/phaser-setup/
 
-To install project:
+#### This project uses Node version 15.10.0
 
-Node version: 15
-- Run <npm install>
-- Run <npm install -g parcel-bundler>
+:alien: To install project:
+- Run `<npm install>`
+- Run `<npm install -g parcel-bundler>`
     A bundler like webpack
 
-To run project:
-- Run <npm run dev>
+:alien: To run project:
+- Run `<npm run dev>`
