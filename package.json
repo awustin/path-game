@@ -1,0 +1,19 @@
+{
+  "name": "path-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files \".\"",
+    "dev": "concurrently --kill-others \"parcel watch game.js\" \"npm run serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "concurrently": "^6.3.0",
+    "phaser": "^3.55.2"
+  }
+}
