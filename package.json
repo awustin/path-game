@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "browser-sync start --server --files \".\"",
-    "dev": "concurrently --kill-others \"parcel watch game.js\" \"npm run serve\""
+    "serve": "browser-sync start --cors --server --files '.'",
+    "dev": "concurrently --kill-others \"parcel watch src\\game.js\" \"npm run serve\""
   },
   "keywords": [],
   "author": "",
