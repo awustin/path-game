@@ -2,11 +2,11 @@
   "name": "path-game",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "distDir": "./dist/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "browser-sync start --cors --server --files '.'",
-    "dev": "concurrently --kill-others \"parcel watch src\\game.js\" \"npm run serve\""
+    "serve": "browser-sync start --cors --server './' --files 'index.html' --no-open --no-inject-changes",
+    "dev": "concurrently --kill-others \"parcel watch src/*.js\" \"npm run serve\""
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
   "dependencies": {
     "browser-sync": "^2.27.5",
     "concurrently": "^6.3.0",
+    "parcel": "^2.4.0",
     "phaser": "^3.55.2"
   }
 }
